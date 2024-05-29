@@ -10,8 +10,9 @@ const Index = () => {
         <HStack spacing={8}>
           <Link href="/">Home</Link>
           <Link href="/courses">Courses</Link>
-          <Link href="#">About</Link>
-          <Link href="#">Contact</Link>
+          <Link href="/code-editor">Code Editor</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
         </HStack>
       </Flex>
 
