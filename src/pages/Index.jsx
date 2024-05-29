@@ -8,8 +8,8 @@ const Index = () => {
       <Flex as="nav" bg="blue.700" color="white" padding={4} justifyContent="space-between" alignItems="center">
         <Heading size="md">CodeLearn</Heading>
         <HStack spacing={8}>
-          <Link href="#">Home</Link>
-          <Link href="#">Courses</Link>
+          <Link href="/">Home</Link>
+          <Link href="/courses">Courses</Link>
           <Link href="#">About</Link>
           <Link href="#">Contact</Link>
         </HStack>
